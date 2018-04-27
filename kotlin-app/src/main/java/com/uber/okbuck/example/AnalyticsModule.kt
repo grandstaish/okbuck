@@ -9,5 +9,5 @@ class AnalyticsModule {
 
     @Provides
     @Singleton
-    fun provideAnalytics(): Analytics = AnalyticsImpl()
+    internal fun provideAnalytics(): Analytics = AnalyticsImpl()
 }
